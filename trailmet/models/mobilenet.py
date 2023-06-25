@@ -230,7 +230,7 @@ def get_mobilenet(model, num_classes, cfg=None):
     """
     #     ModuleInjection.pruning_method = method
     #     ModuleInjection.prunable_modules = []
-    if model == "mobilenetv2":
+    if model == 'mobilenetv2':
         net = MobileNetv2(num_classes, cfg)
     #     net.prunable_modules = ModuleInjection.prunable_modules
     return net
