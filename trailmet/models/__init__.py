@@ -1,7 +1,7 @@
 from .resnet import get_resnet_model
 
 
-class ModelsFactory(object):
+class ModelsFactory(object):      
     @staticmethod
     def create_model(name, num_classes=100, pretrained=False, **kwargs):
         """
